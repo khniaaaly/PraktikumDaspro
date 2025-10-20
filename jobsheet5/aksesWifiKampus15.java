@@ -8,7 +8,7 @@ public class aksesWifiKampus15 {
         String pengguna, dosen, mahasiswa;
         int SKS;
 
-        System.out.println("---Akses WiFI Kampus---");
+        System.out.println("--- Akses WiFI Kampus ---");
         System.out.println("Masukkan jenis pengguna (dosen, mahasiswa) ");
         pengguna = sc.nextLine().trim();
 

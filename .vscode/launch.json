@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "cm1_khania",
+            "request": "launch",
+            "mainClass": "cm1_khania",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "aksesWifiKampus15",
+            "request": "launch",
+            "mainClass": "jobsheet5.aksesWifiKampus15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "ifCetakKRS15",
+            "request": "launch",
+            "mainClass": "jobsheet5.ifCetakKRS15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "ifElseCetakKRS15",
+            "request": "launch",
+            "mainClass": "jobsheet5.ifElseCetakKRS15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "nestedUjianSkripsi15",
+            "request": "launch",
+            "mainClass": "jobsheet5.nestedUjianSkripsi15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "sistemPerpustakaan15",
+            "request": "launch",
+            "mainClass": "jobsheet5.sistemPerpustakaan15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "switchCetakKRS15",
+            "request": "launch",
+            "mainClass": "jobsheet5.switchCetakKRS15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        }
+    ]
+}
