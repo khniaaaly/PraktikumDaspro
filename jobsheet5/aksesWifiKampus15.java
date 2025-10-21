@@ -5,26 +5,27 @@ import java.util.Scanner;
 public class aksesWifiKampus15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String pengguna, dosen, mahasiswa;
-        int SKS;
 
-        System.out.println("--- Akses WiFI Kampus ---");
-        System.out.println("Masukkan jenis pengguna (dosen, mahasiswa) ");
-        pengguna = sc.nextLine().trim();
+        String jenisPengguna;
+        int jumlahSKS;
 
-        if (pengguna == "dosen") {
-            System.out.println("Akses WiFi diberikan (dosen)");
-        } else if (pengguna == "mahasiswa") {
-            System.out.println("Masukkan Jumlah SKS yang diambil: ");
-            SKS = sc.nextInt();
+        System.out.println("--- Pengecekan Wifi Kampus ---");
+        System.out.println("Masukkan Jenis Pengguna: ");
+        jenisPengguna = sc.nextLine();
 
-            if (pengguna == "mahasiswa" && SKS >= 12) {
-                System.out.println("Akses WiFi diberikan (mahasiswa aktif)");
-            } else if (pengguna == "mahasiswa" && SKS < 12) {
+        if (jenisPengguna.equalsIgnoreCase("dosen")) {
+            System.out.println("Akses Wifi diberikan (dosen)");
+        } else if (jenisPengguna.equalsIgnoreCase("mahasiswa")) {
+            System.out.println("Masukkan jumlah SKS");
+            jumlahSKS = sc.nextInt();
+
+            if (jumlahSKS >= 12) {
+                System.out.println("Akses Wifi diberikan (mahasiswa aktif)");
+            } else {
                 System.out.println("Akses ditolak, SKS kurang dari 12");
             }
         } else {
-            System.out.println("Akses Ditolak");
+            System.out.println("Akses ditolak");
         }
     }
 

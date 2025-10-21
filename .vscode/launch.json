@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SiakadFor15",
+            "request": "launch",
+            "mainClass": "jobsheet7.SiakadFor15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
             "name": "Tugas2",
             "request": "launch",
             "mainClass": "jobsheet5.Tugas2",
