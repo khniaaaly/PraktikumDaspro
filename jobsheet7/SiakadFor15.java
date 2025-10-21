@@ -16,9 +16,9 @@ public class SiakadFor15 {
             if (nilai < terendah) {
                 terendah = nilai;
             }
-            System.out.println("Nilai Tertinggi: " + tertinggi);
-            System.out.println("Nilai Terendah: " + terendah);
         }
+        System.out.println("Nilai Tertinggi: " + tertinggi);
+        System.out.println("Nilai Terendah: " + terendah);
     }
 
 }
