@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KafeDoWhile15",
+            "request": "launch",
+            "mainClass": "jobsheet7.KafeDoWhile15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
             "name": "SiakadFor15",
             "request": "launch",
             "mainClass": "jobsheet7.SiakadFor15",
