@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PenjualanTiketBioskop",
+            "request": "launch",
+            "mainClass": "jobsheet7.PenjualanTiketBioskop",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
             "name": "SiakadWhile15",
             "request": "launch",
             "mainClass": "jobsheet7.SiakadWhile15",
