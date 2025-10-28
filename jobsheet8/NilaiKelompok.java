@@ -10,7 +10,7 @@ public class NilaiKelompok {
         int kelompokTertinggi = 0;
 
         i = 1;
-        while (i <= 2) {
+        while (i <= 6) {
             System.out.println("Kelompok " + i);
 
             totalNilai = 0;
