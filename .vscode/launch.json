@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NilaiKelompok",
+            "request": "launch",
+            "mainClass": "jobsheet8.NilaiKelompok",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "Triangle15",
+            "request": "launch",
+            "mainClass": "jobsheet8.Triangle15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "Square15",
+            "request": "launch",
+            "mainClass": "jobsheet8.Square15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
+            "name": "Star15",
+            "request": "launch",
+            "mainClass": "jobsheet8.Star15",
+            "projectName": "PraktikumDaspro_75915f0a"
+        },
+        {
+            "type": "java",
             "name": "PenjualanTiketBioskop",
             "request": "launch",
             "mainClass": "jobsheet7.PenjualanTiketBioskop",
