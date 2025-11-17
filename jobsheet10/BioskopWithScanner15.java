@@ -31,15 +31,16 @@ public class BioskopWithScanner15 {
                     int kolom = sc.nextInt();
                     sc.nextLine();
 
-                    if (baris >= 1 && baris <= 4 && kolom >= 1 && kolom <= 2) {
-                        if (penonton[baris - 1][kolom - 1] == null) {
-                            penonton[baris - 1][kolom - 1] = nama;
-                            System.out.println("Data penonton berhasil dimasukkan!");
-                        } else {
-                            System.out.println("Kursi sudah terisi oleh " + penonton[baris - 1][kolom - 1]);
-                        }
+                    if (baris < 1 || baris > 4 || kolom < 1 || kolom > 2) {
+                        System.out.println("Nomor kursi tidak tersedia!");
+                        break;
+                    }
+
+                    if (penonton[baris - 1][kolom - 1] == null) {
+                        penonton[baris - 1][kolom - 1] = nama;
+                        System.out.println("Data penonton berhasil dimasukkan!");
                     } else {
-                        System.out.println("Posisi kursi tidak valid!");
+                        System.out.println("Kursi sudah terisi oleh " + penonton[baris - 1][kolom - 1]);
                     }
                     break;
 
