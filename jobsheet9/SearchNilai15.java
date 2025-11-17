@@ -33,7 +33,7 @@ public class SearchNilai15 {
         if (hasilIndex != -1) {
             System.out.println("Nilai " + key + " ketemu, merupakan nilai mahasiswa ke-" + (hasilIndex + 1));
         } else {
-            System.out.println("Nilai " + key + " tidak ditemukan.");
+            System.out.println("Nilai yang dicari tidak ditemukan");
         }
     }
 }
