@@ -1,7 +1,7 @@
 package jobsheet11;
 
 public class Kafe15 {
-    public static void Menu(String namaPelanggan, boolean isMember) {
+    public static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
         System.out.println("Selamat Datang, " + namaPelanggan + "!");
 
         if (isMember) {
@@ -20,7 +20,6 @@ public class Kafe15 {
     }
 
     public static void main(String[] args) {
-        Menu("Andi", true);
+        Menu("Budi", true, "DISKON30");
     }
-
 }
